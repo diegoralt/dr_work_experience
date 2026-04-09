@@ -1,19 +1,21 @@
 # Índice de Memoria
 
-Este archivo es un índice de memorias persistentes que Claude mantiene sobre el proyecto y el usuario.
+Memorias persistentes del proyecto.
 
 ## Memorias del Usuario
 - (Próximamente: preferencias, contexto del usuario)
 
 ## Memorias del Proyecto
-- (Próximamente: contexto del proyecto, decisiones arquitectónicas)
+- [project_context.md](project_context.md) — Estado actual, postulaciones activas, tech stack validado
 
 ## Feedback
 - (Próximamente: cómo trabajar óptimamente en este proyecto)
 
 ## Referencias
-- (Próximamente: enlaces a recursos externos)
+- [GitHub Profile](https://github.com/diegoralt)
+- [LinkedIn](https://www.linkedin.com/in/diego-reyes-altamirano/)
+- Lab10 AI Community: https://lab10.ai/
 
 ---
 
-**Instrucciones para Claude**: Actualiza este índice cuando agregues nuevas memorias.
+**Última actualización:** 9 de abril, 2026
