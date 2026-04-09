@@ -22,3 +22,8 @@ token.json
 # Temporales
 .tmp/
 temp/
+
+# 🔒 PRIVADO: Tracking de postulaciones (no publicar en GitHub)
+.recruitment/
+.recruitmentrc
+recruitment_notes.txt
