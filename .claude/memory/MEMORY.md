@@ -18,4 +18,4 @@ Memorias persistentes del proyecto.
 
 ---
 
-**Última actualización:** 9 de abril, 2026
+**Última actualización:** 11 de abril, 2026

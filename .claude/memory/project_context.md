@@ -2,7 +2,7 @@
 name: Project Context & Status
 description: Estado actual del proyecto de perfil profesional
 type: project
-last_updated: 2026-04-09
+last_updated: 2026-04-11
 ---
 
 # Project Status & Context
@@ -20,17 +20,16 @@ Sistema IA que agrega experiencia técnica y genera contenido personalizado para
 - 3 proyectos documentados honestamente
 - Estructura privada de tracking de postulaciones (.recruitment/)
 - Entregables para Lab10 completados
+- GitHub README final (GITHUB_PROFILE_README.md) — ready to deploy
 
 ### En Progreso (🔄)
-- GitHub README (boceto v1.0 en docs/github_readme_wip.md)
-- Pipeline TikTok (Semana 3, retomar para Video 4)
+- Pipeline TikTok (retomar Video 4)
 - Interview content (STAR responses, role summaries, QA bank)
 
 ### Pendiente (⏳)
 - Generar interview-responses.md (STAR format)
 - Crear role-summaries.md
 - Compilar qa-bank.md
-- Actualizar GitHub README final
 - Futuras postulaciones
 
 ## 🔗 Proyectos Principales
