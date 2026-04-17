@@ -20,10 +20,14 @@ Software Engineer con 9+ años de experiencia en desarrollo de software. Líder 
 - **Universidad**: Facultad de Estudios Superiores Aragón (UNAM)
 - **Período**: Agosto 2011 - Mayo 2015
 
+## Posicionamiento LinkedIn (actualizado 2026-04-16)
+- **Headline**: AI Engineer & Engineering Lead | LLMs · RAG · Agentic Workflows · n8n | De la idea al producto IA en producción
+- **Rol objetivo principal**: AI Engineer / GenAI Engineer
+- **Perfil completo**: ver `generated/linkedin-profile.md`
+
 ## Disponibilidad
 - **Disponible para**: Full-time / Consultoría técnica
 - **Tipos de rol buscado**: 
-  - Engineer Lead / Engineering Manager
-  - Senior Android Developer
-  - AI/ML Engineer
-  - Technical Consultant
+  - AI Engineer / GenAI Engineer
+  - Engineering Lead (equipos de IA)
+  - AI Technical Consultant

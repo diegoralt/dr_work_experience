@@ -22,6 +22,7 @@ token.json
 # Temporales
 .tmp/
 temp/
+.claude/worktrees/
 
 # 🔒 PRIVADO: Tracking de postulaciones (no publicar en GitHub)
 .recruitment/
