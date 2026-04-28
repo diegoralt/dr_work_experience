@@ -88,6 +88,13 @@
     "workflow": "docs/workflow.md"
   },
 
+  "plans": {
+    "executive_plan": "generated/linkedin-plan-1month.md",
+    "detailed_timeline": "generated/plan-semanal-4semanas.md",
+    "location": "dr_work_experience/generated (centralized master context)",
+    "note": "Plans moved from /projects-ai/ to master workspace for single source of truth"
+  },
+
   "git_strategy": {
     "master_repo": "dr_work_experience",
     "master_repo_tracks": ["profile", "experience", "skills", "cvs", "postulation_records"],

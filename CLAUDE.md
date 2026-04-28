@@ -1,7 +1,58 @@
 # Sistema de Perfil Profesional y Preparación para Entrevistas
+## + Workspace Master para 2 Proyectos AI (Mayo 2026)
 
-## Propósito del Proyecto
-Sistema IA que agrega tu experiencia técnica (CVs, LinkedIn, GitHub) y genera contenido personalizado para preparación de entrevistas de trabajo usando Claude API.
+## Propósito del Proyecto (Dual)
+
+**MASTER WORKSPACE** (este directorio):
+- Sistema IA que agrega tu experiencia técnica (CVs, LinkedIn, GitHub)
+- Genera contenido personalizado para preparación de entrevistas de trabajo
+- **Punto de entrada centralizado** para 2 proyectos independientes
+- Memory compartido + Settings unificados
+- Registro de procesos de postulación
+
+**EXTERNAL PROJECTS** (en `/projects-ai/`):
+- `support-agent-ai`: Sistema de automatización de tickets (Semana 1)
+- `document-rag-system`: Sistema RAG de búsqueda de documentos (Semanas 2-3)
+- Cada uno: su propio `.git` independiente (publicable a GitHub)
+
+## Arquitectura: Workspace References
+
+Lee `workspace.json` para la configuración completa.
+
+```
+dr_work_experience/ (MASTER WORKSPACE - Single Source of Truth)
+├── workspace.json           ← Define estructura + referencias
+├── CLAUDE.md (this file)   ← Master config
+├── .claude/
+│   ├── settings.json       ← Settings base
+│   └── memory/             ← Memory centralizado (compartido)
+├── source/                 ← Data única verdad (perfil)
+│   └── profile/, cvs/      ← Experience, skills, links
+└── generated/              ← PLANES + Procesos de postulación
+    ├── linkedin-plan-1month.md          ← Plan ejecutivo (4 semanas)
+    ├── plan-semanal-4semanas.md         ← Timeline detallado (ejecución)
+    └── rappi-ai-engineer-application.md ← Proceso activo
+
+/projects-ai/ (EXTERNAL - git independiente)
+├── INDEX.md                ← Referencia a planes en dr_work_experience
+├── support-agent-ai/       ← Proyecto 1 (.git propio)
+│   └── README.md
+└── document-rag-system/    ← Proyecto 2 (.git propio)
+    └── README.md
+```
+
+**Estructura Definitiva:**
+- **Master Workspace**: dr_work_experience (planes + memory + perfil)
+- **Projects**: /projects-ai/ (desarrollo + git independiente)
+- **Single Source of Truth**: Plans en dr_work_experience/generated/
+
+## Cómo Funciona
+
+1. **Abres dr_work_experience en Claude Code**
+2. **Claude Code lee workspace.json** → detecta /projects-ai/
+3. **Memory centralizado** accesible desde cualquier proyecto
+4. **Context switching** optimizado entre proyectos
+5. **Settings base** + overrides por proyecto cuando necesario
 
 ## Estructura del Proyecto
 
