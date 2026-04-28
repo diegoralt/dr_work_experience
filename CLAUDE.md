@@ -16,10 +16,11 @@ dr_work_experience/
 │   └── cvs/                # Variaciones de CV por rol
 │       ├── cv_latest.md     # CV actual/principal
 │       └── cv_for_[role].md # Variantes específicas por rol
-├── generated/              # Contenido generado para entrevistas
+├── generated/              # Contenido generado para entrevistas y procesos de postulación
 │   ├── interview-responses.md   # Respuestas STAR, historias clave
 │   ├── role-summaries.md        # Perfiles adaptados por tipo de rol
-│   └── qa-bank.md               # Banco de preguntas y respuestas
+│   ├── qa-bank.md               # Banco de preguntas y respuestas
+│   └── [company]-application.md # Registros de procesos de postulación activos
 ├── .claude/
 │   ├── memory/              # Memoria persistente entre sesiones
 │   │   └── MEMORY.md        # Índice de memorias

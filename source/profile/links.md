@@ -14,6 +14,17 @@ tags: [links, social, portfolio, presencia]
 - **Artify (GitHub)**: https://github.com/diegoralt/Artify
   - App Android desarrollada con Claude Code (Clean Architecture + MVVM)
 
+## Proyectos IA - Plan Mes 1 (Mayo 2026)
+- **Support Agent AI**: https://github.com/diegoralt/support-agent-ai
+  - Agente inteligente de clasificación y automatización de tickets de soporte
+  - Stack: Claude API + n8n + Supabase PostgreSQL
+  - Status: En desarrollo (Semana 1 de 4)
+
+- **Document RAG System**: https://github.com/diegoralt/document-rag-system
+  - Sistema RAG de análisis y búsqueda semántica en documentos
+  - Stack: Claude API embeddings + Supabase pgvector + Python
+  - Status: En desarrollo (Semanas 2-3 de 4)
+
 ## Proyectos IA en Producción
 - **TikTok - Almamexicana.ia**: https://www.tiktok.com/@almamexicana.ia
   - Pipeline agéntico de generación de contenido usando Claude in Chrome + herramientas IA generativa
