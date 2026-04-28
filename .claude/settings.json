@@ -1,0 +1,108 @@
+{
+  "workspace_name": "diego-ai-engineer-journey",
+  "workspace_type": "master",
+  "created": "2026-04-27",
+
+  "claude_code": {
+    "model": "claude-opus-4-7",
+    "temperature": 0.7,
+    "context_window": 200000,
+    "auto_memory_save": true,
+    "memory_auto_sync": true
+  },
+
+  "shared_settings": {
+    "language": "en",
+    "timezone": "America/Mexico_City",
+    "theme": "dark",
+    "editor": "vs-code",
+    "git_auto_commit": true,
+    "git_auto_push": false
+  },
+
+  "memory_config": {
+    "enabled": true,
+    "location": ".claude/memory",
+    "memory_index": "MEMORY.md",
+    "auto_save_interval": 300000,
+    "accessible_from": ["all_projects"],
+    "persistence": "local_git"
+  },
+
+  "project_defaults": {
+    "type": "ai_engineering",
+    "primary_language": "python",
+    "testing": "enabled",
+    "documentation": "enabled",
+    "git_tracking": "enabled"
+  },
+
+  "projects": {
+    "support-agent": {
+      "path": "../projects-ai/support-agent-ai",
+      "type": "automation",
+      "technologies": ["Claude API", "n8n", "PostgreSQL"],
+      "development_week": 1,
+      "context_priority": "high",
+      "memory_tags": ["project_1", "automation", "support"]
+    },
+    "rag-system": {
+      "path": "../projects-ai/document-rag-system",
+      "type": "search",
+      "technologies": ["Claude API", "Supabase pgvector", "Python"],
+      "development_weeks": [2, 3],
+      "context_priority": "high",
+      "memory_tags": ["project_2", "rag", "vectordb"]
+    }
+  },
+
+  "coding_standards": {
+    "python_version": "3.9+",
+    "code_style": "pep8",
+    "type_hints": true,
+    "docstring_style": "google",
+    "test_coverage_target": 80,
+    "comment_ratio": "minimal (only why, not what)"
+  },
+
+  "github_strategy": {
+    "master_repo": "dr_work_experience",
+    "external_repos": [
+      {
+        "name": "support-agent-ai",
+        "independent": true,
+        "fork_ready": true
+      },
+      {
+        "name": "document-rag-system",
+        "independent": true,
+        "fork_ready": true
+      }
+    ]
+  },
+
+  "claude_code_integration": {
+    "context_mode": "workspace_optimized",
+    "multi_project_support": true,
+    "memory_sharing": "centralized",
+    "context_switching": "enabled",
+    "cross_project_references": true,
+    "auto_detect_projects": true
+  },
+
+  "work_schedule": {
+    "timezone": "America/Mexico_City",
+    "daily_work_hours": 4,
+    "work_window": "10:00-14:00",
+    "linkedin_posting_times": ["Tuesday 09:00", "Thursday 09:00"],
+    "total_project_hours": "55-60"
+  },
+
+  "output_preferences": {
+    "code_comments": "minimal",
+    "response_style": "concise",
+    "tool_descriptions": "brief",
+    "progress_summaries": "end_of_session_only",
+    "emoji_usage": false
+  }
+}

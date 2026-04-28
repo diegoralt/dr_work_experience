@@ -1,0 +1,118 @@
+{
+  "name": "diego-ai-engineer-journey",
+  "description": "Master workspace: AI Engineer profile + 2 production projects (May 2026)",
+  "version": "1.0",
+  "created": "2026-04-27",
+
+  "workspace": {
+    "root": ".",
+    "memory_path": ".claude/memory",
+    "settings_path": ".claude/settings.json",
+    "type": "master",
+    "external_projects_root": "../projects-ai"
+  },
+
+  "projects": [
+    {
+      "id": "support-agent",
+      "name": "Support Agent AI",
+      "path": "../projects-ai/support-agent-ai",
+      "description": "Intelligent ticket automation using Claude API + n8n",
+      "status": "development",
+      "start_week": 1,
+      "end_week": 1,
+      "duration_days": 5,
+      "primary": true,
+      "git_independent": true,
+      "git_path": "../projects-ai/support-agent-ai/.git",
+      "technologies": ["Claude API", "n8n", "PostgreSQL", "Supabase"],
+      "expected_posts": 4,
+      "expected_video": true
+    },
+    {
+      "id": "rag-system",
+      "name": "Document RAG System",
+      "path": "../projects-ai/document-rag-system",
+      "description": "Semantic search + analysis using Claude embeddings + pgvector",
+      "status": "development",
+      "start_week": 2,
+      "end_week": 3,
+      "duration_days": 10,
+      "primary": true,
+      "git_independent": true,
+      "git_path": "../projects-ai/document-rag-system/.git",
+      "technologies": ["Claude API", "Supabase pgvector", "Python", "LangChain"],
+      "expected_posts": 5,
+      "expected_video": true
+    }
+  ],
+
+  "shared_context": {
+    "location": ".claude/memory/MEMORY.md",
+    "accessible_from": ["all_projects"],
+    "includes": [
+      "project_status",
+      "learnings",
+      "architectural_decisions",
+      "networking_targets",
+      "linkedin_metrics"
+    ]
+  },
+
+  "memory_sections": {
+    "project_1": "project_ai_status.md",
+    "project_2": "project_ai_status.md",
+    "shared": "learnings.md",
+    "networking": "networking_strategy.md"
+  },
+
+  "environment": {
+    "timezone": "America/Mexico_City",
+    "work_hours": "10:00-14:00 CDMX",
+    "posting_schedule": "Martes-Jueves 09:00 CDMX",
+    "coding_duration_per_day": "4 hours",
+    "total_estimated_hours": "55-60 hours"
+  },
+
+  "settings_propagation": {
+    "base_settings": ".claude/settings.json",
+    "project_overrides": {
+      "support-agent": ".claude/settings.support-agent.json",
+      "rag-system": ".claude/settings.rag-system.json"
+    }
+  },
+
+  "documentation": {
+    "architecture": "docs/workspace-architecture.md",
+    "setup": "docs/workspace-setup.md",
+    "workflow": "docs/workflow.md"
+  },
+
+  "git_strategy": {
+    "master_repo": "dr_work_experience",
+    "master_repo_tracks": ["profile", "experience", "skills", "cvs", "postulation_records"],
+    "external_repos": [
+      {
+        "name": "support-agent-ai",
+        "path": "../projects-ai/support-agent-ai",
+        "independent": true,
+        "publishable_to": "github.com/diegoralt/support-agent-ai"
+      },
+      {
+        "name": "document-rag-system",
+        "path": "../projects-ai/document-rag-system",
+        "independent": true,
+        "publishable_to": "github.com/diegoralt/document-rag-system"
+      }
+    ]
+  },
+
+  "timeline": {
+    "phase_1_setup": "2026-04-27",
+    "phase_2_development": "2026-04-28 to 2026-05-23",
+    "phase_3_networking": "2026-05-22 to 2026-05-23",
+    "milestone_1": "2026-05-02 (Support Agent Complete)",
+    "milestone_2": "2026-05-16 (RAG System Complete)",
+    "milestone_3": "2026-05-23 (Consolidation + Networking)"
+  }
+}
