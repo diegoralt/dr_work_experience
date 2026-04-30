@@ -37,7 +37,7 @@ Link: Ver en linkedin.com/in/diego-reyes-altamirano/
 
 ---
 
-### **MIÉRCOLES (Abril 30) ⏳ EN PROGRESO**
+### **MIÉRCOLES (Abril 29) ⏳ HOY - EN PROGRESO****
 
 #### 🔨 DESARROLLO (3 horas)
 - [ ] Prompt engineering: Diseñar prompt para clasificación de tickets
@@ -56,7 +56,7 @@ Link: Ver en linkedin.com/in/diego-reyes-altamirano/
 
 ---
 
-### **JUEVES (Mayo 1)**
+### **JUEVES (Abril 30)**
 
 #### 🔨 DESARROLLO (3 horas)
 - [ ] n8n workflow setup: 
@@ -70,7 +70,7 @@ Link: Ver en linkedin.com/in/diego-reyes-altamirano/
 **Entregable**: n8n workflow funcionando, diagrama documentado
 
 #### 📱 LINKEDIN (45 min)
-**Post 2 - Solution Architecture**
+**Post 3 - Solution Architecture**
 ```
 Así es como estoy resolviendo el problema:
 
@@ -112,7 +112,7 @@ Mañana: implementación completa.
 
 ---
 
-### **JUEVES (Mayo 1)**
+### **VIERNES (Mayo 1)**
 
 #### 🔨 DESARROLLO (3 horas)
 - [ ] FAQ base: Crear 15 FAQs reales de soporte SaaS
@@ -124,7 +124,7 @@ Mañana: implementación completa.
 **Entregable**: FAQ base + 50 tickets de prueba + respuestas generadas
 
 #### 📱 LINKEDIN (45 min)
-**Post 3 - Live Development**
+**Post 4 - Live Development**
 ```
 Building in public 🔴 LIVE:
 
@@ -157,7 +157,7 @@ github.com/diegoralt/support-agent-ai
 
 ---
 
-### **SÁBADO (Mayo 3) - Si aplica para horas extra**
+### **SÁBADO (Mayo 2) - Si aplica para horas extra**
 
 #### 🔨 DESARROLLO (Opcional - 2.5 horas)
 - [ ] Testing final: Pasar 50 tickets reales por el sistema
@@ -172,8 +172,8 @@ github.com/diegoralt/support-agent-ai
 **Entregable**: Sistema funcionando validado, video demo, repo público
 
 #### 📱 LINKEDIN (1.5 horas, incluye video)
-**VIERNES 9am**: Post 4 - Resultados Finales
-**VIERNES 11:30am**: Upload video demo (comentario del post)
+**SÁBADO 9am**: Post 5 - Resultados Finales
+**SÁBADO 11:30am**: Upload video demo (comentario del post)
 
 ```
 ✅ RESULTADO FINAL: Agente de Soporte AI
@@ -217,15 +217,16 @@ Video demo en comentarios 👇
 - [ ] Responder todas las preguntas en comentarios
 
 #### 📊 SEMANA 1 - Resumen Esperado
-- **Posts LinkedIn**: 4 posts (9am CDMX: 29 abril, 30 abril, 1 mayo, 2 mayo)
-- **Videos**: 1 video demo (Viernes)
+- **Posts LinkedIn**: 5 posts (9am CDMX: 28 abril, 29 abril, 30 abril, 1 mayo, 2 mayo)
+- **Videos**: 1 video demo (Sábado)
 - **Engagement esperado**: 500-700 impresiones/post, 15+ comentarios totales
 - **Código**: Repo público con workflow completo
 - **Validación**: 50 tickets procesados con 90%+ accuracy
 
 #### ✅ SEMANA 1 - Progreso Real
 - **Día 1 (28 abril)**: Setup + Documentación + Post 1 ✅ COMPLETADO
-- **Días 2-5**: En progreso
+- **Día 2 (29 abril)**: Prompt validation + Post 2 ⏳ HOY
+- **Días 3-6**: En progreso
 
 ---
 
