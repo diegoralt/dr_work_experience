@@ -1,18 +1,19 @@
 ---
 type: project-status
-last_updated: 2026-04-29
+last_updated: 2026-05-02
 project: Case 1 - Support Intelligence Agent
 ---
 
-# CASO 1: Agente Inteligente de Soporte - STATUS
+# CASO 1: Agente Inteligente de Soporte - STATUS v2.0
 
 ## 🎯 Objetivo
-Construir agente IA que clasifique tickets de soporte automáticamente
+Sistema inteligente que clasifica, responde y escala tickets de soporte (3 flujos)
 
 ## 📊 Estado Actual
-- **Fase**: Phase 1 - Setup & Configuration ✅ COMPLETO | Phase 2 - Prompt Engineering ⏳ LISTO
-- **Progreso**: 30% (Phase 1 ✅, Phase 2 preparado)
-- **Última actualización**: 2026-04-29 18:45 CDMX
+- **Fase**: Phase 0 - Specification Design ✅ COMPLETO | Phase 1 - FAQ Search (Node 5) ⏳ INICIA
+- **Progreso**: 40% (Phases 1-2 ✅, Specification v2.0 ✅, Implementation ready)
+- **Última actualización**: 2026-05-02 11:30 CDMX
+- **Próximo Hito**: Phase 1 - FAQ Search implementation (2-3 horas)
 
 ## ✅ Completado (Semana 1: Martes 28 abril)
 
@@ -51,26 +52,72 @@ Construir agente IA que clasifique tickets de soporte automáticamente
 - **Validation**: 80% en test original (10 tickets) - generaliza bien
 - **Status**: ✅ PRODUCTION READY con manual review fallback
 
-## ⏳ Próximas Tareas
+## 🎯 Decisiones Arquitectónicas Resueltas (2026-05-02)
 
-### Semana 1 - PROGRESO
-- [x] **Miércoles 29 abril**: 
-  - ✅ Prompt optimization: 86% accuracy (43/50) - +12pp improvement
-  - ✅ Validación en test original: 80% (8/10)
-  - [ ] **Post 2 - Solution Architecture** (EN PROGRESO - hoy)
-  
-- [ ] **Jueves 30 abril**: 
-  - [ ] Desarrollo n8n workflow completo
-  - [ ] Post 3 - Live Development (opcional)
-  
-- [ ] **Viernes 1 mayo**: 
-  - [ ] Testing + Video demo
-  - [ ] Post 4 - Building in Public
+### SISTEMA: 3 Flujos Claros
+1. **Flow 1 - FAQ Auto-Response**: is_faq=true → FAQ search → Respuesta automática
+2. **Flow 2 - Escalation**: Priority High/Critical → Save escalated → Alert team
+3. **Flow 3 - Internal Alerting**: Slack PRIMARY + Telegram FALLBACK
 
-### Fases Pendientes
-- [ ] Phase 2: Core Development (n8n + OpenAI integration)
-- [ ] Phase 3: Testing & Validation (50 ticket dataset)
-- [ ] Phase 4: Documentation & Deployment
+### FAQ Search Implementation
+- **Enfoque**: HTTP Request + Supabase REST API (NO "Get Many Rows")
+- **SQL**: CASE scoring (title=100, full_content=25)
+- **Accuracy Target**: 85-90%
+- **Por qué HTTP**: Más control, SQL custom, flexible
+
+### Email Responses
+- **FAQ**: Auto-response con contenido del FAQ
+- **Medium/Low (sin FAQ)**: Respuesta genérica "Estamos analizando..."
+- **High/Critical**: NO auto-response, escalación directa
+- **Alineado**: Sistemas reales empresariales
+
+### Alerting
+- **Slack**: FREE (integración nativa n8n)
+- **Telegram**: Fallback vía HTTP API
+- **Costo**: $0 (solo n8n self-hosted o cloud plan)
+
+### Métricas de Éxito
+- **Global**: 90% system reliability (todos los flujos)
+- **Per-flow**: Trackear % cada flujo por separado
+- **Medición**: Success rate cada ejecución
+
+---
+
+## ⏳ Roadmap - Phases 1-5
+
+### **Phase 1: FAQ Search (Node 5)** ← NEXT
+- **Time**: 2-3 horas
+- **Deliverable**: HTTP Request + Supabase `search_faqs()` function
+- **Tasks**:
+  - [ ] Crear Supabase function con CASE scoring
+  - [ ] Configurar HTTP Request node en n8n
+  - [ ] Test con 10 tickets
+  - [ ] Medir accuracy %
+
+### **Phase 2: Refactor Escalation Flow**
+- **Time**: 1-2 horas
+- **Deliverable**: Nodes 4b, 5a (route + save escalated)
+
+### **Phase 3: Internal Alerting (Slack + Telegram)**
+- **Time**: 2-3 horas
+- **Deliverable**: Slack node + Telegram fallback
+
+### **Phase 4: Customer Escalation Email** [OPTIONAL]
+- **Time**: 1-2 horas (si <24h)
+- **Deliverable**: Email notification para escalaciones
+
+### **Phase 5: Testing + Documentation**
+- **Time**: 2-3 horas
+- **Deliverable**: README + diagramas + success metrics
+
+---
+
+## 📚 Documentación Actualizada
+- ✅ N8N_WORKFLOW_GUIDE.md: v2.0 (3 flujos, Node 5 HTTP Request)
+- ✅ TECHNICAL_SPECIFICATION.md: v2.0 (arquitectura detallada)
+- ✅ caso-1-status.md: v2.0 (plan de implementación)
+
+**Sin crear nuevos archivos**: Todo sincronizado en archivos existentes
 
 ## 🔗 Referencias Críticas
 - **GitHub Repo**: github.com/diegoralt/support-agent-ai
