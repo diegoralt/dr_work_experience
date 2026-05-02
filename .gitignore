@@ -28,3 +28,16 @@ temp/
 .recruitment/
 .recruitmentrc
 recruitment_notes.txt
+
+# 🚫 CRITICAL: Proyectos IA (SOLO en /projects-ai/)
+# El código de los proyectos NUNCA debe estar en dr_work_experience
+# Solo referencias/tracking en generated/ son permitidas
+projects/*/prompts/
+projects/*/docs/
+projects/*/tests/
+projects/*/workflows/
+projects/*/.git/
+projects/*/node_modules/
+projects/*/__pycache__/
+projects/*/.env
+projects/*/.env.*

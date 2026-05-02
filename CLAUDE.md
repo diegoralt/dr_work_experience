@@ -46,6 +46,30 @@ dr_work_experience/ (MASTER WORKSPACE - Single Source of Truth)
 - **Projects**: /projects-ai/ (desarrollo + git independiente)
 - **Single Source of Truth**: Plans en dr_work_experience/generated/
 
+## 🚫 REGLAS CRÍTICAS - Separación de Workspace
+
+**NUNCA crear estos archivos en dr_work_experience:**
+- ❌ `projects/*/prompts/` (código IA)
+- ❌ `projects/*/docs/` (especificaciones técnicas del proyecto)
+- ❌ `projects/*/tests/` (test cases)
+- ❌ `projects/*/workflows/` (configuración n8n/técnica)
+
+**SOLO permitido en dr_work_experience:**
+- ✅ `generated/caso-1-status.md` (tracking de progreso)
+- ✅ `generated/proyecto-ia-index.md` (índice de referencias)
+- ✅ `generated/plan-*.md` (planes de ejecución)
+- ✅ `source/` (CVs, perfil profesional)
+- ✅ `.claude/` (memoria, settings)
+
+**Por qué:**
+- dr_work_experience = Master workspace para tu perfil profesional + tracking
+- /projects-ai/ = Repos independientes con .git separado (publicable a GitHub)
+- Evita duplicación, conflictos de merge, confusión de repositorios
+
+**Protección automática:**
+- Pre-commit hook en `.git/hooks/pre-commit` rechaza commits de código de proyecto
+- .gitignore ignora archivos de proyecto por defecto
+
 ## Cómo Funciona
 
 1. **Abres dr_work_experience en Claude Code**
