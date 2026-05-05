@@ -1,10 +1,15 @@
 ---
-type: generado
-last_updated: 2026-04-27
-tags: [rappi, vacante, ai-engineer, preparación, aplicación]
+type: application_tracking
+company: Rappi
+position: AI Engineer Mid-level
+status: rejected
+date_applied: 2026-04-27
+date_rejected: 2026-04-29
+last_updated: 2026-05-05
+tags: [rappi, vacante, ai-engineer, aplicación, rechazada]
 ---
 
-# Análisis & Preparación: AI Engineer Mid-level @ Rappi
+# Rappi - AI Engineer Mid-level Application [REJECTED]
 
 ## Contexto de la Vacante
 - **Posición**: AI Engineer Mid-level (conflicto: título dice "Senior AI Engineer I" pero descripción es Mid-level 2-4 años)
@@ -237,6 +242,35 @@ manager, sino como especialista técnico con skin in the game."
 
 ---
 
-**Fecha de Aplicación**: [PENDIENTE]  
-**Última Actualización**: 2026-04-27  
-**Estado**: Listo para aplicar + entrevista
+---
+
+## 🔴 RESULTADO FINAL: RECHAZADO
+
+**Fecha de Aplicación**: 2026-04-27  
+**Fecha de Rechazo**: 2026-04-29 (2 días después)  
+**Última Actualización**: 2026-05-05
+
+### Mensaje Recibido
+> "Hola. Queremos contarte que después de revisar todos los perfiles, en esta ocasión decidimos continuar con otros candidatos que se ajustan mejor a lo que necesitamos para este rol en este momento.
+>
+> Gracias por tomarte el tiempo de participar en nuestro proceso y por tu interés en conocernos 💛
+>
+> Nos encantaría conservar tu información para futuras oportunidades donde tu experiencia y talento puedan encajar mejor.
+> Te deseamos mucho éxito en lo que viene y gracias nuevamente por tu interés en formar parte de Rappi ✨"
+
+### Análisis del Rechazo
+- **Causa probable**: No pasó screening inicial (probablemente Python/MLOps gap)
+- **Timeline**: Rechazo muy rápido (2 días) → decisión en fase inicial
+- **Mensaje**: "Otros candidatos se ajustan mejor" + "Conservar para futuras oportunidades" (puerta abierta)
+- **Lección**: El gap en Python/MLOps explícito fue determinante
+
+### Conclusión
+Rappi sigue siendo opción viable para futuras vacantes cuando tengas más experiencia en:
+- Python (actual 6/10 → target 8/10)
+- MLOps formal (herramientas específicas)
+- Fine-tuning documentado
+
+---
+
+**Estado**: Cerrado - Rechazado  
+**Próximo Paso**: Aplicar a futuras vacantes cuando gaps técnicos estén cerrados
