@@ -2,10 +2,10 @@
 type: application_tracking
 company: Clara
 position: Mobile Product Lead - LATAM
-status: submitted
+status: video_interview_stage
 date_started: 2026-05-13
 date_submitted: 2026-05-14
-last_updated: 2026-05-14
+last_updated: 2026-05-26
 tags: [clara, vacante, mobile, product-lead, fintech, latam, pm]
 ---
 
@@ -38,14 +38,14 @@ Lead Clara's mobile product strategy across iOS and Android platforms. Manage co
 | Field | Status | Target Date |
 |-------|--------|-------------|
 | **CV Preparation** | ✅ Complete | 2026-05-13 |
-| **Cover Letter Draft** | ⏳ In Progress | 2026-05-14 |
-| **STAR Stories** | ⏳ In Progress | 2026-05-14 |
-| **Research (Clara app)** | ⏳ To-Do | 2026-05-14 |
+| **Cover Letter Draft** | ✅ Complete | 2026-05-14 |
+| **STAR Stories** | ✅ Complete | 2026-05-14 |
 | **Application Submission** | ✅ Complete | 2026-05-14 |
-| **Initial Screening** | ⏳ Expected | ~2026-05-22 |
-| **Phone/Video Screening** | ⏳ Expected | ~2026-05-29 |
-| **Technical Interview** | ⏳ Expected | ~2026-06-05 |
-| **Offer Decision** | ⏳ Expected | ~2026-06-12 |
+| **Initial Screening** | ✅ Passed | 2026-05-22 |
+| **AI Video Interview** | ⏳ **IN PROGRESS** | **By 2026-05-29** (4-day deadline from email) |
+| **Phone/Video Screening** | ⏳ Expected | ~2026-06-05 |
+| **Final Round** | ⏳ Expected | ~2026-06-12 |
+| **Offer Decision** | ⏳ Expected | ~2026-06-19 |
 
 ---
 
@@ -385,6 +385,230 @@ Soy completamente capaz de aprender Firebase Remote Config en 1-2 weeks. Documen
 
 ### Recomendación:
 **STRONG APPLY.** El PM title gap es completamente closeable con narrativa coherente. Tu technical depth + AI proficiency + fintech domain son differentiators significativos. Clara's énfasis en AI tools + mobile excellence juegan directly a tus strengths.
+
+---
+
+## 🎬 AI VIDEO INTERVIEW - PREPARATION GUIDE
+
+**Status:** ✅ SELECTED TO PROCEED  
+**Received:** 2026-05-25  
+**Deadline:** 2026-05-29 (4 days to complete)  
+**Format:** AI-conducted video interview (asynchronous, self-recorded)
+
+### 📋 WHAT TO EXPECT
+
+**Interview Type:**
+- AI-guided video questions (not a live interview)
+- Platform-guided, you record answers
+- Questions focused on: product leadership, mobile strategy, team collaboration, metrics-driven decisions
+- Duration: Estimated 15-25 minutes of questions/recording
+
+**Expected Question Topics:**
+1. Why Product Management? Why Clara?
+2. Mobile product strategy & release management experience
+3. Cross-functional collaboration & conflict resolution
+4. Analytics/metrics-driven decision making
+5. AI tools integration in product workflows
+6. LATAM market understanding & local constraints
+7. Specific scenario: "A feature launch failed badly—what do you do?"
+
+---
+
+### 🎯 PREPARATION STRATEGY
+
+#### Pre-Recording Setup (1 day before)
+- **Location:** Quiet room, natural lighting, clean background
+- **Technical:** Test camera/audio, good internet connection, headphones ready
+- **Appearance:** Professional but comfortable (like a real conversation)
+- **Mindset:** Think of this as practice for a real conversation, not a test
+
+#### Recording Best Practices
+- **Speak naturally:** Use conversational tone, not robotic
+- **Pace:** Slower than normal (camera adds ~20% speed perception loss)
+- **Eye contact:** Look slightly above camera lens (not at it directly)
+- **Pauses:** OK to take 2-3 seconds before answering—shows you're thinking
+- **Length:** 60-90 seconds per answer is ideal (not too short, not rambling)
+- **Don't restart:** Minor stumbles are fine—shows authenticity
+
+#### Key Messaging Framework
+
+**Your Core Narrative (keep in mind while answering):**
+```
+"I'm a technical leader who transitioned into PM-adjacent work 
+(4 years doing 85% of PM responsibilities at Rappi). 
+
+My differentiators for Clara:
+1. Deep mobile expertise (9 years) + Product strategy (4 years PM-adjacent)
+2. Release management mastery (Statsig, staged rollouts, A/B testing)
+3. Production AI systems experience (LLMs, RAG, automation)
+4. Fintech domain (RappiCard) + LATAM market understanding
+5. Data-driven culture (Amplitude, metrics, user segmentation)
+
+Ready to formalize PM title + leverage AI proficiency for Clara's growth."
+```
+
+---
+
+### 🎤 ANTICIPATED QUESTIONS & ANSWER FRAMEWORKS
+
+#### Q1: "Why are you transitioning from Engineering Lead to Product Management?"
+
+**Answer Approach (60-90 seconds):**
+```
+"Great question. In my 4 years as Engineer Lead at Rappi, 85% of my work 
+was actually Product Management—defining roadmaps, prioritizing features, 
+managing release cycles, collaborating with stakeholders. 
+
+I realized my passion isn't in managing engineers; it's in solving product 
+problems through technology. The transition to Product Management is the 
+natural next step.
+
+What's unique is my technical depth. I understand mobile architecture at 
+a level most PMs don't—MVVM, design systems, platform constraints. That 
+helps me make better trade-off decisions between elegance and speed."
+```
+
+---
+
+#### Q2: "Tell us about your experience with release management and mobile launches."
+
+**Answer Approach (Structured STAR, 90 seconds):**
+```
+"I led the complete release cycle for RappiCard—a fintech product at 
+Rappi's scale (millions of users).
+
+Situation: We needed to launch features safely to minimize risk.
+
+Action: I designed a staged rollout strategy: 5% internal → 25% canary 
+→ 100% production. I configured Statsig for A/B testing and feature flags. 
+Set up monitoring in Amplitude to track crash rates, adoption curves, 
+user behavior in real-time. Implemented kill switches for rollback if 
+anything went wrong.
+
+Result: Launched 4+ features without critical incidents. Reduced risk by 
+80% vs traditional binary releases. Established a repeatable process 
+other teams adopted."
+```
+
+---
+
+#### Q3: "How would you use AI tools in your product strategy at Clara?"
+
+**Answer Approach (Conversational, show expertise, 90 seconds):**
+```
+"I've built production systems with LLMs—this isn't theoretical for me.
+
+Here's how I'd apply it at Clara:
+
+1. User Research Synthesis: Claude to analyze app reviews and feedback. 
+   Instead of manually reading 500 reviews, AI identifies themes and 
+   patterns in minutes.
+
+2. Competitive Analysis: AI-powered analysis of Clara vs. competitors' 
+   app stores—understand gaps, opportunities.
+
+3. Copy Testing: Use LLMs to generate messaging variants, A/B test them 
+   in Statsig before development effort.
+
+4. Workflow Automation: n8n + AI to automate metric reporting, feedback 
+   synthesis, stakeholder updates.
+
+My approach is: don't use AI as a crutch; use it to amplify what's hard—
+synthesis, pattern recognition, rapid iteration."
+```
+
+---
+
+#### Q4: "Describe a time a product launch failed. How did you handle it?"
+
+**Answer Approach (Authentic + problem-solving, 90 seconds):**
+```
+"Good real-world question. I led a release of a new feature that had 
+higher-than-expected crash rates post-launch.
+
+Situation: Feature was enabled for 25% of users; crash spike within 
+2 hours.
+
+Action: 
+- Immediately toggled kill switch to disable the feature
+- Coordinated with backend & QA: 30-minute root cause analysis
+- Found: edge case in payment flow we missed in staging
+- Committed fix, staged rollout plan: 5% → 15% → full
+- Implemented additional monitoring: transaction success rate, edge case logging
+
+Result: Redeployed safely 4 hours later with zero incidents. 
+Lesson learned: staging can't catch everything—monitoring + kill switches 
+save your launch.
+
+Key insight for Clara: speed + safety isn't about perfection; it's about 
+being ready to respond fast."
+```
+
+---
+
+#### Q5: "Why Clara? Why LATAM? Why now?"
+
+**Answer Approach (Genuine + strategic, 60-90 seconds):**
+```
+"Three reasons:
+
+1. **AI + Product Fit:** Clara values AI proficiency for product development. 
+   Most PMs don't have that. I've built production systems with LLMs, RAG, 
+   automation. That's a direct match.
+
+2. **Mobile Excellence:** Clara is building mobile-first fintech for LATAM. 
+   That's my zone. 9 years mobile + 4 years fintech + 4 years managing 
+   LATAM teams (4 countries). I can aportar valor desde el día 1.
+
+3. **Market Timing:** Mobile fintech in LATAM is exploding. There's real 
+   opportunity to differentiate through product + AI. I want to be part of 
+   that wave.
+
+Personally: I've done the engineering leadership thing. Now I want to focus 
+on product strategy, ship fast, leverage technology to solve LATAM's unique 
+problems. Clara is that opportunity."
+```
+
+---
+
+### 🎬 RECORDING CHECKLIST
+
+**Technical Setup:**
+- [ ] Test camera (clear, no glare)
+- [ ] Test audio (use headphones to check for echo)
+- [ ] Lighting: Face well-lit, no shadows
+- [ ] Background: Clean, professional, distraction-free
+- [ ] Internet: Strong connection, no distractions
+
+**Pre-Recording:**
+- [ ] Close other apps (Slack, email, notifications)
+- [ ] Have notes nearby but NOT visible on camera
+- [ ] Do a 1-2 minute test recording
+- [ ] Hydrate (dry mouth = bad audio)
+
+**While Recording:**
+- [ ] Smile—comes through in voice
+- [ ] Speak slightly slower than normal
+- [ ] Pause before answering (2-3 seconds of thinking is good)
+- [ ] If you stumble: pause, breathe, restart sentence (natural fixes look OK)
+- [ ] DON'T restart the whole answer unless major error
+
+**Post-Recording:**
+- [ ] Review 30 seconds of each answer
+- [ ] Audio clear? Video quality OK? Body language confident?
+- [ ] If retake needed: do it fresh, don't overthink
+
+---
+
+### ⏰ TIMELINE PROJECTION
+
+| Milestone | Date | Status |
+|-----------|------|--------|
+| Video interview deadline | 2026-05-29 | ⏳ You have 4 days |
+| Expected screening review | 2026-06-01 to 2026-06-05 | ⏳ They review submissions |
+| Next round notification | ~2026-06-05 | ⏳ Phone/final interview |
+| Final round (if selected) | ~2026-06-12 | ⏳ Likely in-person or synchronous |
+| Offer decision | ~2026-06-19 | ⏳ Target date |
 
 ---
 
