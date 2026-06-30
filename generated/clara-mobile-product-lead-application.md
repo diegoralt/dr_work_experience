@@ -2,14 +2,15 @@
 type: application_tracking
 company: Clara
 position: Mobile Product Lead - LATAM
-status: video_interview_stage
+status: rejected
 date_started: 2026-05-13
 date_submitted: 2026-05-14
-last_updated: 2026-05-26
-tags: [clara, vacante, mobile, product-lead, fintech, latam, pm]
+date_rejected: 2026-06-16
+last_updated: 2026-06-29
+tags: [clara, vacante, mobile, product-lead, fintech, latam, pm, rechazada]
 ---
 
-# Clara - Mobile Product Lead LATAM Application [SUBMITTED]
+# Clara - Mobile Product Lead LATAM Application [REJECTED - 16-06-2026]
 
 ## Position Overview
 
@@ -35,17 +36,28 @@ Lead Clara's mobile product strategy across iOS and Android platforms. Manage co
 
 ## Application Status
 
-| Field | Status | Target Date |
-|-------|--------|-------------|
+| Field | Status | Date |
+|-------|--------|------|
 | **CV Preparation** | ✅ Complete | 2026-05-13 |
 | **Cover Letter Draft** | ✅ Complete | 2026-05-14 |
 | **STAR Stories** | ✅ Complete | 2026-05-14 |
 | **Application Submission** | ✅ Complete | 2026-05-14 |
 | **Initial Screening** | ✅ Passed | 2026-05-22 |
-| **AI Video Interview** | ⏳ **IN PROGRESS** | **By 2026-05-29** (4-day deadline from email) |
-| **Phone/Video Screening** | ⏳ Expected | ~2026-06-05 |
-| **Final Round** | ⏳ Expected | ~2026-06-12 |
-| **Offer Decision** | ⏳ Expected | ~2026-06-19 |
+| **AI Video Interview** | ✅ Completed | ~2026-05-29 |
+| **Rejection Decision** | ❌ **REJECTED** | **2026-06-16** |
+
+### Rejection Details
+
+**Date:** Tuesday, June 16, 2026 (13 days ago)  
+**From:** no-reply@clara.team (Clara Recruitment Team)  
+**Reason:** "After review of your background and experience, we've made the difficult decision to move forward with other candidates at this time."
+
+**Assessment:** Likely alignment gap with specific PM requirements. You passed initial screening and completed video interview, but Clara chose other candidates. This suggests experience level was adequate but profile (Engineer Lead vs pure PM) didn't match their specific needs.
+
+**Positive Notes from Email:**
+- ✅ They would consider you for other positions
+- ✅ They keep profiles on file for future opportunities
+- ✅ Encouraging tone: "does not reflect a lack of appreciation for your potential"
 
 ---
 
