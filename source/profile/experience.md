@@ -79,6 +79,27 @@ tags: [experience, empleo, historial, logros]
 
 ---
 
+### Android Developer @ BBVA Bancomer (vía consultora)
+**Período**: ~2016 - Octubre 2018 (~2 años) | **Ubicación**: México
+
+**Contexto**: Asignado al proyecto BBVA Bancomer como desarrollador Android a través de una empresa consultora.
+
+**Responsabilidades principales:**
+- Desarrollo de funcionalidades en la app Línea Bancomer
+- Servicios bancarios: reposición de tarjetas, bloqueos, búsqueda de cajeros/sucursales
+
+**Nota**: No se lista en LinkedIn como experiencia primaria — el rol fue vía consultora y se priorizan experiencias directas de mayor impacto.
+
+---
+
+### Android Developer Jr @ Origis
+**Período**: ~2015 - ~2016 (primer empleo formal + etapa de becario) | **Ubicación**: México
+
+**Nota**: Etapa Jr. No se incluye en LinkedIn por falta de proyectos concretos documentados.
+Relevancia: confirma el inicio de carrera ~2015, base de los 9+ años de experiencia.
+
+---
+
 ### Android Developer Mid @ Grin Scooters
 **Período**: Noviembre 2018 - Julio 2019 (9 meses) | **Ubicación**: México
 
@@ -106,15 +127,19 @@ tags: [experience, empleo, historial, logros]
 
 **Crecimiento profesional**:
 ```
-Android Developer (2018-2019)
+Becario / Jr Developer @ Origis (~2015-2016)
     ↓
-Android Developer Senior (2019-2020)
+Android Developer @ BBVA Bancomer vía consultora (~2016-2018)
     ↓
-Android Tech Lead (2020-2022)
+Android Developer Mid @ Grin Scooters (2018-2019)
     ↓
-Engineer Lead (2022-2025)
+Android Developer Senior @ Rappi (2019-2020)
     ↓
-Transición a IA (2024-Presente)
+Android Tech Lead @ Rappi (2020-2022)
+    ↓
+Engineer Lead @ Rappi (2022-2025)
+    ↓
+AI Systems Builder — proyectos propios (2024-Presente)
 ```
 
 ---
@@ -122,14 +147,14 @@ Transición a IA (2024-Presente)
 ## Proyectos Adicionales & Laboratorio
 
 ### MVP - Asistente Legal para Despacho Jurídico
-**Herramientas**: Lovable, n8n, OpenAI API | **Estado**: Producción (cliente en onboarding)
+**Herramientas**: Lovable, n8n, OpenAI API | **Estado**: MVP entregado (proyecto pausado)
 
 - Diseñé flujo conversacional y prompts del agente legal
 - Integré n8n como orquestador de automatizaciones
 - Construí MVP en tiempo récord con prototipado rápido
-- Demo en producción disponible
 
 **Impacto**: Automatiza atención inicial de clientes, clasificación de casos, generación de documentos
+**Nota**: El proyecto avanzó hasta MVP funcional. La relación con el cliente no continuó.
 
 ### Pipeline Agéntico - Generación de Contenido para TikTok
 **Herramientas**: Claude in Chrome, Freepik, Kling AI, CapCut | **Estado**: Producción activa
