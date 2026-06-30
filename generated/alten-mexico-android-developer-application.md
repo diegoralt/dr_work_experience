@@ -2,13 +2,14 @@
 type: application_tracking
 company: ALTEN México
 position: Android Frontend Mobile Developer Sr
-status: submitted
+status: no_response_timeout
 date_applied: 2026-05-04
-last_updated: 2026-05-05
-tags: [alten, vacante, android, mobile, frontend]
+last_updated: 2026-06-29
+days_without_response: 56
+tags: [alten, vacante, android, mobile, frontend, rechazada_tacitamente]
 ---
 
-# ALTEN México - Android Frontend Mobile Developer Sr Application
+# ALTEN México - Android Frontend Mobile Developer Sr Application [NO RESPONSE - 56 DAYS]
 
 ## Position Overview
 
@@ -24,17 +25,28 @@ Develop native Android banking applications using Kotlin. Focus on security, per
 
 ## Application Status
 
-| Field | Status | Submission Date |
-|-------|--------|-----------------|
-| **Personal Information** | ✅ Complete | 2026-05-04 |
-| **Education** | ✅ Complete | 2026-05-04 |
-| **Experience** | ✅ Complete | 2026-05-04 |
-| **Technical Skills** | ✅ Complete | 2026-05-04 |
-| **Salary Expectation** | ✅ Complete | 2026-05-04 |
-| **English Level** | ✅ Complete | 2026-05-04 |
-| **Frontend Android Experience** | ✅ Complete | 2026-05-04 |
+| Field | Status | Date |
+|-------|--------|------|
 | **Application Submission** | ✅ Submitted | 2026-05-04 |
-| **Screening & Next Steps** | ⏳ Awaiting Response | - |
+| **Initial Response Expected** | ⏳ Expected | ~2026-05-18 |
+| **No Response After 30 Days** | ⚠️ Flag raised | 2026-06-04 |
+| **No Response After 56 Days** | ❌ **TIMEOUT** | **2026-06-29** |
+
+### Status Assessment
+
+**Conclusion:** Rejection by silence (silent rejection)
+
+- **Applied:** 2026-05-04
+- **Last update:** 2026-05-05
+- **Days waiting:** 56 days
+- **Standard industry practice:** No response after 30 days = rejection
+
+**What this means:**
+- Application likely screened and rejected at initial review
+- No formal rejection email sent (common for high-volume positions)
+- Door is functionally closed, though not explicitly stated
+
+**Recommendation:** Accept as rejected and move on. ALTEN is unlikely to respond.
 
 ---
 
