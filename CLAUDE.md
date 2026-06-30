@@ -140,6 +140,45 @@ git add .
 git commit -m "Actualizar: [descripción]"
 ```
 
+## Estructura de Archivos de Seguimiento de Postulaciones
+
+Cada postulación activa tiene su archivo en `generated/[empresa]-[rol]-application.md`.
+La plantilla estándar está en `generated/application-tracking-template.md`.
+
+### Secciones Obligatorias (en este orden)
+1. **Frontmatter YAML** — type, company, position, status, dates, tags
+2. **Position Overview** — empresa, rol, tipo, URL de vacante, resumen del rol
+3. **Application Status** — tabla de etapas con estado y fecha
+4. **Datos Exactos del Formulario** — solo si hay formulario online; incluye siempre:
+   - Education (datos fijos: FES Aragón UNAM, 2011-2015)
+   - Work Experience summaries (en inglés, optimizados por rol)
+   - Volunteer Experience (Casa Hogar San Martín de Porres y Juan XXIII, 14-11-2025)
+   - Professional Associations (SCRUMstudy 27-12-2017, GDG Cloud México 08-11-2024, Lab10 08-05-2025)
+   - Qualifications/Licenses (seleccionar relevantes de la lista maestra en skills.md)
+5. **Mapeo Perfil vs Requisitos** — tabla de alineados y gaps con evidencia
+6. **Competitive Advantages** — 3-5 ventajas con evidencia concreta
+7. **STAR Stories Preparadas** — mínimo 3 historias completas (Situación/Tarea/Acción/Resultado)
+8. **Preguntas Esperadas & Respuestas** — mínimo 4 preguntas con respuesta lista
+9. **Preguntas a Hacer en la Entrevista** — mínimo 3 preguntas para el entrevistador
+10. **Alignment Assessment** — fit level (1-5) + tabla de cobertura de requisitos
+11. **Expected Timeline** — milestones con fechas target
+12. **Contact Information** — datos fijos de Diego
+13. **Notes** — observaciones específicas de esta aplicación
+
+### Datos Fijos Reutilizables
+- **Email:** diego.reyes.tcp@gmail.com
+- **Phone:** +52 5551279802
+- **Location:** Atenco, México
+- **Education:** Computer Engineering, FES Aragón UNAM, 08/2011 - 05/2015
+- **Voluntariado:** Casa Hogar San Martín de Porres y Juan XXIII, 14-11-2025
+- **Certificado Scrum:** SCRUMstudy, 27-12-2017
+- **GDG Cloud México:** desde 08-11-2024
+- **Lab10 Community:** desde 08-05-2025
+
+### Naming Convention
+`generated/[empresa-kebab-case]-[rol-kebab-case]-application.md`
+Ejemplo: `stori-tech-manager-application.md`, `clara-mobile-product-lead-application.md`
+
 ## Guías Importantes para Claude
 
 - Lee este CLAUDE.md primero para entender la estructura
@@ -148,3 +187,4 @@ git commit -m "Actualizar: [descripción]"
 - Los archivos generados incluyen timestamp y referencias
 - Usa Git con mensajes de commit claros
 - Haz preguntas clarificadoras antes de generar
+- Para nuevas postulaciones: usar `generated/application-tracking-template.md` como base
