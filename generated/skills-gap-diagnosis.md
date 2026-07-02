@@ -101,8 +101,8 @@ En el pitch mencionó 4 roles distintos: AI Engineer + Engineering Lead + Tech L
 - [ ] Identificar las 4 historias STAR principales a reescribir
 
 ### SEMANAS 2-3 (07-07 al 20-07-2026)
-- [ ] Reescribir historia STAR #1: RappiCard Chile migration
-- [ ] Reescribir historia STAR #2: Design System (+20% velocity)
+- [x] Reescribir historia STAR #1: RappiCard Chile migration
+- [x] Reescribir historia STAR #2: Design System (+20% velocity)
 - [ ] Reescribir historia STAR #3: Optimización infraestructura (-20% costos)
 - [ ] Reescribir historia STAR #4: Datadog/SignalFX → solución creativa
 - [ ] Practicar cada historia con cronómetro (máx 2 min, sin notas)
@@ -127,24 +127,40 @@ En el pitch mencionó 4 roles distintos: AI Engineer + Engineering Lead + Tech L
 
 ## Las 4 Historias STAR a Trabajar
 
-### Historia #1: RappiCard Chile Migration (EN PROGRESO)
+### Historia #1: RappiCard Chile Migration (PRACTICADA ✅)
 
 **Versión actual (débil):**
 > "Con la guía de mi líder y el apoyo de compañeros expertos, pude definir la correcta solución..."
 
-**Versión objetivo (con ownership):**
-> "Identifiqué que el flujo de reemplazo de tarjeta era el más crítico — si fallaba, el usuario quedaba sin acceso a fondos. Diseñé un token temporal que permitía a Itau iniciar el reemplazo sin exponer datos PCI. Coordiné los equipos internos de Rappi, el equipo de Itau y proveedores externos. Resultado: migración completada en el timeline acordado, cero incidentes de reemplazo durante el mes de operación dual."
+**Versión final (con ownership, practicada 30-06-2026):**
+> "Estuve a cargo del proyecto de migración de RappiCard de la app de Rappi a la plataforma de Itau. Tuve que coordinar diferentes equipos — interno, Itau y proveedores externos — para actualizar el flujo de reemplazo de tarjeta, ya que era un flujo crítico.
+>
+> Definí utilizar un endpoint ya conocido por el equipo de Itau para evitar retrasos en su desarrollo. Determiné que el nuevo flujo pudiera integrarse sin afectar el canal de reemplazo ya existente, dando un periodo donde los usuarios podían ejecutar el reemplazo desde los 2 canales en paralelo. Planifiqué una liberación en fases que nos permitió detectar errores antes del despliegue total.
+>
+> Resultado: migramos las 54 mil tarjetas activas en Chile con solo 5 incidencias reportadas — menos del 0.01% — y 200 reemplazos de tarjeta procesados exitosamente durante la operación dual."
 
-**Estado:** ⏳ Pendiente practicar
+**Calificación:** 9/10 (ownership 9, razonamiento técnico 8, estructura STAR 9, métrica de resultado 9)
+
+**Estado:** ✅ Lista para entrevista real
 
 ---
 
-### Historia #2: Design System +20% Velocity (PENDIENTE)
+### Historia #2: Design System +20% Velocity (PRACTICADA ✅)
 
 **Versión débil conocida:** "Lideré el desarrollo de un Design System"
-**Versión objetivo:** TBD en sesión de trabajo
 
-**Estado:** ⏳ Pendiente reescribir
+**Versión final (con ownership, practicada 01-07-2026):**
+> "El equipo de producto detectó diferencias en la experiencia de usuario que brindaban los flujos en el app dependiendo si el usuario tenía Android o iOS, lo que provocaba confusión entre los usuarios — esto dio auge a una iniciativa llamada Design System. La meta fue generar vistas nuevas o existentes rápido y con consistencia entre ambas plataformas.
+>
+> Mi rol para este proyecto fue definir el plan de desarrollo, contemplando fecha de liberación de primera versión, plan de implementación de componentes, revisión con equipo de UX para revisión y validación de componentes, y sobre todo empujar con los equipos de desarrollo de producto la importancia de su adopción para priorizar la integración a los flujos.
+>
+> El proyecto inició su desarrollo con un equipo pequeño. Cuando detectaba una entrega de componentes críticos, gestionaba capacidad adicional de otros equipos, lo que me permitió cumplir las fechas de entrega comprometidas.
+>
+> Al final, el Design System es utilizado por más de 7 equipos de desarrollo mobile, con un aumento del 20% en la velocidad de desarrollo y una experiencia de usuario más homogénea sin importar el SO que tiene el usuario final en su dispositivo."
+
+**Calificación:** 8.5/10 (ownership 8.5, razonamiento técnico 7.5, estructura STAR 8, métrica de resultado 9)
+
+**Estado:** ✅ Lista para entrevista real
 
 ---
 
