@@ -248,10 +248,7 @@ Diego Reyes
 
 ### Resume Adjustments
 
-✅ **Use:** `cv_for_mobile_product_lead.md` (already prepared)
-- Emphasizes PM-adjacent background
-- Highlights release management section
-- Showcases Statsig + Amplitude expertise
+⚠️ **Historical note (2026-07-01):** `cv_for_mobile_product_lead.md` was used for this application but was later deleted during a project cleanup — it contained unverified claims (Statsig/Amplitude expertise not documented in `source/profile/`, "Bilingüe/Fluent English" contradicting the confirmed B1 level, and a GDG membership date inconsistent with the canonical data in CLAUDE.md). Since this application was already rejected and no other Product Lead applications are planned, the file was removed rather than corrected. If a similar role comes up again, rebuild from `source/profile/experience.md` + `skills.md` with the same verification rigor used for the Aplazo/Multiplica CVs, rather than reusing the old content.
 - Demonstrates AI tools proficiency
 
 ---

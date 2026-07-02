@@ -88,14 +88,18 @@ dr_work_experience/
 │   │   ├── links.md         # LinkedIn, GitHub, Portfolio
 │   │   ├── skills.md        # Hard skills, soft skills, proficiencias
 │   │   └── experience.md    # Historial completo y logros
-│   └── cvs/                # Variaciones de CV por rol
-│       ├── cv_latest.md     # CV actual/principal
-│       └── cv_for_[role].md # Variantes específicas por rol
+│   └── cvs/                # CVs en Markdown (fuente antes de generar PDF)
+│       ├── cv_latest.md              # CV genérico/principal (reutilizable)
+│       ├── cv_for_[rol].md           # Variantes genéricas por tipo de rol (reutilizables)
+│       └── cv_for_[slug-aplicación].md # CVs específicos de una aplicación puntual (ver Naming Convention)
 ├── generated/              # Contenido generado para entrevistas y procesos de postulación
+│   ├── applications-index.md    # Índice maestro: Aplicación ↔ CV ↔ PDF ↔ Tracking ↔ Estado
+│   ├── cvs-pdf/                 # PDFs finales de CV, listos para adjuntar a una aplicación
+│   │   └── diego-reyes-altamirano-[slug-aplicación].pdf
 │   ├── interview-responses.md   # Respuestas STAR, historias clave
 │   ├── role-summaries.md        # Perfiles adaptados por tipo de rol
 │   ├── qa-bank.md               # Banco de preguntas y respuestas
-│   └── [company]-application.md # Registros de procesos de postulación activos
+│   └── [slug-aplicación]-application.md # Registros de procesos de postulación activos
 ├── .claude/
 │   ├── memory/              # Memoria persistente entre sesiones
 │   │   └── MEMORY.md        # Índice de memorias
@@ -179,9 +183,23 @@ La plantilla estándar está en `generated/application-tracking-template.md`.
 `generated/[empresa-kebab-case]-[rol-kebab-case]-application.md`
 Ejemplo: `stori-tech-manager-application.md`, `clara-mobile-product-lead-application.md`
 
+**Slug unificado (desde 2026-07-01):** cuando se genera un CV específico para una aplicación puntual (no una variante genérica reutilizable), el CV fuente, el PDF y el archivo de tracking deben compartir el mismo slug `[empresa-kebab-case]-[rol-kebab-case]`:
+- CV fuente: `source/cvs/cv_for_[slug].md`
+- PDF: `generated/cvs-pdf/diego-reyes-altamirano-[slug].pdf`
+- Tracking: `generated/[slug]-application.md`
+
+Ejemplo: `cv_for_aplazo-technical-lead-manager.md` / `diego-reyes-altamirano-aplazo-technical-lead-manager.pdf` / `aplazo-technical-lead-manager-application.md`. Esto permite encontrar todo lo relacionado a una aplicación con un solo patrón de búsqueda. Los CVs genéricos por tipo de rol (`cv_for_android.md`, `cv_for_engineer_lead.md`, `cv_for_ia.md`, `cv_latest.md`) NO siguen este slug porque no están atados a una aplicación específica.
+
+Cada vez que se cree o modifique un CV, PDF o archivo de tracking, actualizar `generated/applications-index.md` (tabla maestra de todas las aplicaciones).
+
+### Generación de CVs en PDF
+- El Markdown en `source/cvs/` es siempre la fuente; el PDF en `generated/cvs-pdf/` se genera a partir de él (actualmente vía script Python con `reportlab`, formato Harvard: sin foto, cronología inversa, verbos de acción, bullets cuantificados).
+- **Antes de generar el PDF**, todo el contenido debe pasar por verificación exhaustiva línea por línea contra `source/profile/experience.md` y `skills.md`, confirmando con el usuario cualquier dato que no esté explícitamente documentado (nivel de idiomas, herramientas específicas, tecnologías puntuales). No copiar keywords del job posting sin verificar que aplican — este fue el origen de los datos inflados encontrados en `cv_for_mobile_product_lead.md` (eliminado 2026-07-01).
+
 ## Guías Importantes para Claude
 
 - Lee este CLAUDE.md primero para entender la estructura
+- Consulta `generated/applications-index.md` para ver el estado de todas las aplicaciones antes de explorar carpetas manualmente
 - Los archivos en source/ son la fuente única de verdad
 - Siempre referencia archivos fuente al generar contenido
 - Los archivos generados incluyen timestamp y referencias
