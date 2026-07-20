@@ -12,10 +12,10 @@ Tabla maestra de todas las aplicaciones activas y pausadas: empresa, rol, estado
 |---|---|---|---|---|---|---|
 | Aplazo | Technical Lead Manager | ⏸️ Pausada (bloqueo por rechazo previo <3 meses) | [cv_for_aplazo-technical-lead-manager.md](../source/cvs/cv_for_aplazo-technical-lead-manager.md) | [PDF](cvs-pdf/diego-reyes-altamirano-aplazo-technical-lead-manager.pdf) | *(sin tracking — no se pudo enviar)* | 2026-07-01 |
 | Multiplica Talent | Android Developer (Semi Senior/Senior) | ✅ Submitted (sin respuesta 10 días — ver 2ª aplicación abajo) | [cv_for_multiplica-talent-android-developer.md](../source/cvs/cv_for_multiplica-talent-android-developer.md) | [PDF](cvs-pdf/diego-reyes-altamirano-multiplica-talent-android-developer.pdf) | [multiplica-talent-android-developer-application.md](multiplica-talent-android-developer-application.md) | 2026-07-11 |
-| Stori | Tech Manager | ⚫ Cerrada por inactividad (76 días sin feedback) | *(no identificado — pendiente de auditar)* | — | [stori-tech-manager-application.md](stori-tech-manager-application.md) | 2026-07-20 |
+| Stori | Tech Manager | ⚫ Cerrada por inactividad (76 días sin feedback) | *(CV hecho fuera de este proyecto, previo al flujo actual — no aplica identificar)* | — | [stori-tech-manager-application.md](stori-tech-manager-application.md) | 2026-07-20 |
 | Clara | Mobile Product Lead | Rejected (16-06-2026) | *(CV eliminado 2026-07-01 — contenía datos no verificados: Statsig/Amplitude sin respaldo, "Bilingüe/Fluent" contradice B1 confirmado, fecha de GDG inconsistente con CLAUDE.md)* | — | [clara-mobile-product-lead-application.md](clara-mobile-product-lead-application.md) | 2026-06-16 |
-| ALTEN México | Android Developer | ⚫ Cerrada por inactividad (77 días sin feedback) | *(no identificado — pendiente de auditar)* | — | [alten-mexico-android-developer-application.md](alten-mexico-android-developer-application.md) | 2026-07-20 |
-| Rappi | AI Engineer Mid-level | Rejected (29-04-2026) | *(no identificado — pendiente de auditar)* | — | [rappi-ai-engineer-application.md](rappi-ai-engineer-application.md) | 2026-05-05 |
+| ALTEN México | Android Developer | ⚫ Cerrada por inactividad (77 días sin feedback) | [cv_for_android.md](../source/cvs/cv_for_android.md) *(confirmado por nombre de archivo: "CV Android.pdf")* | — | [alten-mexico-android-developer-application.md](alten-mexico-android-developer-application.md) | 2026-07-20 |
+| Rappi | AI Engineer Mid-level | Rejected (29-04-2026) | *(no identificado — cerrado sin resolver por decisión del usuario, no se investigará más)* | — | [rappi-ai-engineer-application.md](rappi-ai-engineer-application.md) | 2026-05-05 |
 | Rappi | AI Engineer (reaplicación) | ⏳ Submitted (29-06-2026), sin respuesta de contacto Mike hace 21 días | *(no identificado — pendiente de auditar)* | — | [rappi-ai-engineer-application-new.md](rappi-ai-engineer-application-new.md) | 2026-06-29 |
 | GBM | Engineering Manager | ⚫ Cerrada por inactividad (90 días sin feedback tras Entrevista 2) | *(tracking en `.recruitment/`, sistema previo al índice actual)* | — | `.recruitment/active/gbm_engineering_manager/status.md` | 2026-07-20 |
 | Lab10 | AI Product Engineer | ⚫ Cerrada por inactividad (101 días sin feedback tras entregables) | *(tracking en `.recruitment/`, sistema previo al índice actual)* | — | `.recruitment/active/lab10_ai_product_engineer/status.md` | 2026-07-20 |
@@ -54,6 +54,6 @@ Un borrador previo de `cv_for_monato-senior-software-engineer.md` y su tracking 
 
 ## Pendientes de esta reorganización
 
-- Identificar qué CV se usó realmente para Stori, ALTEN y Rappi (ambas filas), y enlazarlo aquí.
-- Decidir seguimiento con Mike (Rappi) — 21 días sin respuesta a la reaplicación.
-- Definir estrategia de seguimiento para ACL, Monato, Ready y Multiplica (2ª aplicación) — todas ~9 días sin respuesta a la fecha de esta auditoría.
+- ~~Identificar qué CV se usó realmente para Stori, ALTEN y Rappi~~ — resuelto 2026-07-20: ALTEN confirmado (`cv_for_android.md`), Stori fue externo al proyecto (no aplica), Rappi original queda cerrado sin identificar por decisión del usuario (aplicación rechazada, no se reabre el tema).
+- Seguimiento con Mike (Rappi reaplicación) enviado 2026-07-20 — esperando respuesta.
+- Seguimiento para ACL, Monato, Ready y Multiplica (2ª aplicación) programado para ~2026-07-25 (14 días desde el envío) si no hay respuesta antes.
