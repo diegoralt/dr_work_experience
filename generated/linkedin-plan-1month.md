@@ -1,8 +1,11 @@
 ---
 type: generado
 last_updated: 2026-04-26
+status: superseded
 tags: [linkedin, plan-contenido, case-studies, ai-engineer, 1-mes]
 ---
+
+> **⚠️ Superado (2026-07-20):** esta estrategia de content marketing ("AI Engineer Mid Level") se abandonó en la práctica a los 2 días de arrancar (solo 28-29 abril ejecutados) en favor de aplicaciones directas — que es el flujo activo desde entonces (ver `applications-index.md`). Además, el diagnóstico de gaps del 30-06-2026 (`skills-gap-diagnosis.md`) identificó el positioning difuso como uno de los 3 gaps que más está costando en la búsqueda, y recomendó enfocar en **Android Tech Lead**, no "AI Engineer". Se decidió no retomar este plan ni fusionarlo con la operación de `dr_kings_ia` (consultoría de IA independiente, público distinto — comercios locales de Texcoco, no recruiters de LinkedIn). Se conserva como referencia histórica, no como plan activo.
 
 # Plan LinkedIn 1 Mes: Contenido AI Engineer (Mid Level)
 

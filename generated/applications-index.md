@@ -50,7 +50,8 @@ Un borrador previo de `cv_for_monato-senior-software-engineer.md` y su tracking 
 - **`.recruitment/` reconciliado**: era un sistema de tracking huérfano (abril 2026, anterior a este índice). GBM Engineering Manager y Lab10 AI Product Engineer se cerraron por inactividad y quedan referenciados arriba para no perder el historial — detalle completo en `.recruitment/applications.md`.
 - **Rappi aclarado**: no son "2 versiones duplicadas" — son un rechazo histórico (abril) y una reaplicación activa (29-junio, contacto Mike) sin respuesta hace 21 días. Ambos quedan como filas separadas arriba.
 - **Stori y ALTEN cerrados** por inactividad (76 y 77 días sin feedback respectivamente).
-- **Worktree huérfano detectado**: `.claude/worktrees/strange-brown/` (abril 2026, cambios sin commitear) — pendiente de decisión del usuario (eliminar o revisar primero).
+- **Worktree huérfano eliminado**: `.claude/worktrees/strange-brown/` — confirmado 100% fusionado en `main`, sin pérdida. De paso se encontró y corrigió un link roto en `source/profile/personal.md` que apuntaba a un archivo eliminado a propósito en abril.
+- **Planes de LinkedIn marcados como superados**: `linkedin-plan-1month.md` y `plan-semanal-4semanas.md` (content marketing, abandonados a los 2 días de arrancar) — se decidió mantener LinkedIn enfocado 100% en búsqueda de empleo, sin fusionar con `dr_kings_ia` (consultoría de IA independiente que el usuario opera en paralelo, público distinto). Detalle en memoria `project_linkedin_status`.
 
 ## Pendientes de esta reorganización
 

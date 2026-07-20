@@ -1,8 +1,11 @@
 ---
 type: generado
 last_updated: 2026-04-26
+status: superseded
 tags: [plan-ejecutable, 4-semanas, linkedin, desarrollo, balanceado]
 ---
+
+> **⚠️ Superado (2026-07-20):** ejecución detenida tras el miércoles 29-abril (día 2 de 20) — el resto del plan (mayo completo) nunca se marcó como ejecutado. Mismo motivo que `linkedin-plan-1month.md`: se priorizaron aplicaciones directas sobre content marketing. Se conserva como referencia histórica, no como plan activo.
 
 # Plan Semanal Balanceado: 4 Semanas (Mayo 2026)
 
