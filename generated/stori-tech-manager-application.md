@@ -2,10 +2,12 @@
 type: application_tracking
 company: Stori
 position: Tech Manager
-status: awaiting_response
+status: closed_no_feedback
 date_started: 2026-05-05
-last_updated: 2026-06-26
+last_updated: 2026-07-20
 ---
+
+> **Cerrada (2026-07-20):** sin ningún feedback desde el 2026-05-05 (76 días). Cerrada por el usuario por inactividad.
 
 # Stori - Tech Manager Application Tracking
 

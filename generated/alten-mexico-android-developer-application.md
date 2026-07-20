@@ -2,12 +2,14 @@
 type: application_tracking
 company: ALTEN México
 position: Android Frontend Mobile Developer Sr
-status: no_response_timeout
+status: closed_no_feedback
 date_applied: 2026-05-04
-last_updated: 2026-06-29
-days_without_response: 56
+last_updated: 2026-07-20
+days_without_response: 77
 tags: [alten, vacante, android, mobile, frontend, rechazada_tacitamente]
 ---
+
+> **Cerrada (2026-07-20):** sin ningún feedback desde el 2026-05-04 (77 días). Cerrada por el usuario por inactividad.
 
 # ALTEN México - Android Frontend Mobile Developer Sr Application [NO RESPONSE - 56 DAYS]
 

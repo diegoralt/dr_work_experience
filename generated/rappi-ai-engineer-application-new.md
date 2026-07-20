@@ -269,5 +269,11 @@ Esto es exactamente lo que Rappi hace en Risk: ver patrones en millones de trans
 
 ---
 
-**Last Updated:** 2026-06-29  
-**Status:** SUBMITTED - Waiting for Mike's response
+**Last Updated:** 2026-07-20  
+**Status:** SUBMITTED - Follow-up enviado a Mike el 2026-07-20 (21 días sin respuesta a la aplicación original), esperando respuesta
+
+---
+
+## Seguimiento (2026-07-20)
+
+Sin respuesta desde el envío original (2026-06-29). Se detectó que Mike ya no tiene publicaciones recientes en LinkedIn mencionando la búsqueda activa de esta posición — señal ambigua, no concluyente. Se envió mensaje de seguimiento a mike@rappi.com sin asumir que el rol sigue abierto, preguntando por el estatus directamente. Pendiente: respuesta.

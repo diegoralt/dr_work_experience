@@ -1,6 +1,6 @@
 ---
 type: perfil
-last_updated: 2026-04-08
+last_updated: 2026-07-20
 tags: [personal, contacto, información_básica]
 ---
 
@@ -23,7 +23,6 @@ Software Engineer con 9+ años de experiencia en desarrollo de software. Líder 
 ## Posicionamiento LinkedIn (actualizado 2026-04-16)
 - **Headline**: AI Engineer & Engineering Lead | LLMs · RAG · Agentic Workflows · n8n | De la idea al producto IA en producción
 - **Rol objetivo principal**: AI Engineer / GenAI Engineer
-- **Perfil completo**: ver `generated/linkedin-profile.md`
 
 ## Disponibilidad
 - **Disponible para**: Full-time / Consultoría técnica

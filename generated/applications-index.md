@@ -1,6 +1,6 @@
 ---
 type: index
-last_updated: 2026-07-11
+last_updated: 2026-07-20
 tags: [index, aplicaciones, tracking, cvs]
 ---
 
@@ -12,10 +12,13 @@ Tabla maestra de todas las aplicaciones activas y pausadas: empresa, rol, estado
 |---|---|---|---|---|---|---|
 | Aplazo | Technical Lead Manager | ⏸️ Pausada (bloqueo por rechazo previo <3 meses) | [cv_for_aplazo-technical-lead-manager.md](../source/cvs/cv_for_aplazo-technical-lead-manager.md) | [PDF](cvs-pdf/diego-reyes-altamirano-aplazo-technical-lead-manager.pdf) | *(sin tracking — no se pudo enviar)* | 2026-07-01 |
 | Multiplica Talent | Android Developer (Semi Senior/Senior) | ✅ Submitted (sin respuesta 10 días — ver 2ª aplicación abajo) | [cv_for_multiplica-talent-android-developer.md](../source/cvs/cv_for_multiplica-talent-android-developer.md) | [PDF](cvs-pdf/diego-reyes-altamirano-multiplica-talent-android-developer.pdf) | [multiplica-talent-android-developer-application.md](multiplica-talent-android-developer-application.md) | 2026-07-11 |
-| Stori | Tech Manager | Ver tracking | *(no generado en este flujo — CV usado no identificado, pendiente de auditar)* | — | [stori-tech-manager-application.md](stori-tech-manager-application.md) | — |
+| Stori | Tech Manager | ⚫ Cerrada por inactividad (76 días sin feedback) | *(no identificado — pendiente de auditar)* | — | [stori-tech-manager-application.md](stori-tech-manager-application.md) | 2026-07-20 |
 | Clara | Mobile Product Lead | Rejected (16-06-2026) | *(CV eliminado 2026-07-01 — contenía datos no verificados: Statsig/Amplitude sin respaldo, "Bilingüe/Fluent" contradice B1 confirmado, fecha de GDG inconsistente con CLAUDE.md)* | — | [clara-mobile-product-lead-application.md](clara-mobile-product-lead-application.md) | 2026-06-16 |
-| ALTEN México | Android Developer | Sin respuesta (timeout 56 días) | *(no identificado — pendiente de auditar)* | — | [alten-mexico-android-developer-application.md](alten-mexico-android-developer-application.md) | 2026-06-29 |
-| Rappi | AI Engineer | Ver tracking (2 versiones de tracking existen) | *(no identificado — pendiente de auditar)* | — | [rappi-ai-engineer-application.md](rappi-ai-engineer-application.md), [rappi-ai-engineer-application-new.md](rappi-ai-engineer-application-new.md) | 2026-06-29 |
+| ALTEN México | Android Developer | ⚫ Cerrada por inactividad (77 días sin feedback) | *(no identificado — pendiente de auditar)* | — | [alten-mexico-android-developer-application.md](alten-mexico-android-developer-application.md) | 2026-07-20 |
+| Rappi | AI Engineer Mid-level | Rejected (29-04-2026) | *(no identificado — pendiente de auditar)* | — | [rappi-ai-engineer-application.md](rappi-ai-engineer-application.md) | 2026-05-05 |
+| Rappi | AI Engineer (reaplicación) | ⏳ Submitted (29-06-2026), sin respuesta de contacto Mike hace 21 días | *(no identificado — pendiente de auditar)* | — | [rappi-ai-engineer-application-new.md](rappi-ai-engineer-application-new.md) | 2026-06-29 |
+| GBM | Engineering Manager | ⚫ Cerrada por inactividad (90 días sin feedback tras Entrevista 2) | *(tracking en `.recruitment/`, sistema previo al índice actual)* | — | `.recruitment/active/gbm_engineering_manager/status.md` | 2026-07-20 |
+| Lab10 | AI Product Engineer | ⚫ Cerrada por inactividad (101 días sin feedback tras entregables) | *(tracking en `.recruitment/`, sistema previo al índice actual)* | — | `.recruitment/active/lab10_ai_product_engineer/status.md` | 2026-07-20 |
 | ACL | Desarrollador Mobile Android | ✅ Submitted | [cv_for_acl-android-developer.md](../source/cvs/cv_for_acl-android-developer.md) | [PDF](cvs-pdf/diego-reyes-altamirano-acl-android-developer.pdf) | [acl-android-developer-application.md](acl-android-developer-application.md) | 2026-07-10 |
 | Monato | Senior Software Engineer | ✅ Submitted | [cv_for_monato-senior-software-engineer.md](../source/cvs/cv_for_monato-senior-software-engineer.md) | [PDF](cvs-pdf/diego-reyes-altamirano-monato-senior-software-engineer.pdf) | [monato-senior-software-engineer-application.md](monato-senior-software-engineer-application.md) | 2026-07-11 |
 | Confidencial (Positivo S+) | Líder Técnico Mobile | 📨 Enviado como referencia, en espera de más información | [cv_for_positivosmais-lider-tecnico-mobile.md](../source/cvs/cv_for_positivosmais-lider-tecnico-mobile.md) | [PDF](cvs-pdf/diego-reyes-altamirano-positivosmais-lider-tecnico-mobile.pdf) | [positivosmais-lider-tecnico-mobile-application.md](positivosmais-lider-tecnico-mobile-application.md) | 2026-07-11 |
@@ -42,7 +45,15 @@ Esto permite encontrar todo lo relacionado a una aplicación con un solo patrón
 
 Un borrador previo de `cv_for_monato-senior-software-engineer.md` y su tracking (creados en otra sesión el mismo día) contenían STAR stories y respuestas de entrevista con métricas y herramientas inventadas (99.9% uptime, 40% reducción de latencia, SonarQube, Datadog, HikariCP, cobertura "30%→72%", entre otras — ninguna verificable en `source/profile/`). Se detectó vía `/review-application` y se reconstruyeron ambos archivos desde cero, verificados línea por línea. Ver notas completas en [monato-senior-software-engineer-application.md](monato-senior-software-engineer-application.md).
 
+## Auditoría de proyecto (2026-07-20)
+
+- **`.recruitment/` reconciliado**: era un sistema de tracking huérfano (abril 2026, anterior a este índice). GBM Engineering Manager y Lab10 AI Product Engineer se cerraron por inactividad y quedan referenciados arriba para no perder el historial — detalle completo en `.recruitment/applications.md`.
+- **Rappi aclarado**: no son "2 versiones duplicadas" — son un rechazo histórico (abril) y una reaplicación activa (29-junio, contacto Mike) sin respuesta hace 21 días. Ambos quedan como filas separadas arriba.
+- **Stori y ALTEN cerrados** por inactividad (76 y 77 días sin feedback respectivamente).
+- **Worktree huérfano detectado**: `.claude/worktrees/strange-brown/` (abril 2026, cambios sin commitear) — pendiente de decisión del usuario (eliminar o revisar primero).
+
 ## Pendientes de esta reorganización
 
-- Identificar qué CV se usó realmente para Stori, Clara (ya resuelto, CV eliminado), ALTEN y Rappi, y enlazarlo aquí.
-- Considerar consolidar `rappi-ai-engineer-application.md` y `rappi-ai-engineer-application-new.md` si una reemplaza a la otra.
+- Identificar qué CV se usó realmente para Stori, ALTEN y Rappi (ambas filas), y enlazarlo aquí.
+- Decidir seguimiento con Mike (Rappi) — 21 días sin respuesta a la reaplicación.
+- Definir estrategia de seguimiento para ACL, Monato, Ready y Multiplica (2ª aplicación) — todas ~9 días sin respuesta a la fecha de esta auditoría.
