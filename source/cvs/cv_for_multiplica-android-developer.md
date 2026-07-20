@@ -1,12 +1,12 @@
 ---
 type: cv
-last_updated: 2026-07-01
-tags: [cv, resume, android, kotlin, banca, multiplica_talent]
+last_updated: 2026-07-11
+tags: [cv, resume, android, kotlin, banca, multiplica]
 ---
 
 # Diego Reyes Altamirano
 
-Atenco, México (Disponible CDMX híbrido) | +52 555 127 9802 | diego.reyes.tcp@gmail.com | [LinkedIn](https://www.linkedin.com/in/diego-reyes-altamirano/)
+Atenco, México (Disponible remoto / CDMX) | +52 555 127 9802 | diego.reyes.tcp@gmail.com | [LinkedIn](https://www.linkedin.com/in/diego-reyes-altamirano/)
 
 ## Resumen Profesional
 
@@ -21,7 +21,7 @@ Desarrollador Android Senior con 9+ años de experiencia especializado en Kotlin
 **Testing** — JUnit, Mockito (dominio sólido)
 **Programación Reactiva** — RxJava, Kotlin Flow
 **Multimedia** — Glide, Coil
-**Firebase** — Autenticación, Notificaciones Push
+**Firebase** — Notificaciones Push
 **Herramientas & DevOps** — Git, Jenkins, CI/CD, GitHub Actions
 
 ## Experiencia Profesional
@@ -33,7 +33,8 @@ Desarrollador Android Senior con 9+ años de experiencia especializado en Kotlin
 - Implementé inyección de dependencias (Dagger 2, Hilt), integración de APIs RESTful (Retrofit) y manejo de imágenes (Glide, Coil) en producción.
 - Apliqué RxJava y Kotlin Flow para flujos reactivos y gestión de estados asíncronos en features de alto tráfico.
 - Cubrí testing con JUnit y Mockito, integrando análisis estático y pruebas automatizadas en CI (Jenkins).
-- Integré Firebase (Autenticación, notificaciones push) en flujos de producto.
+- Integré Firebase (notificaciones push) en flujos de producto.
+- Implementé protocolos de seguridad en producto bancario/fintech (Keystore, certificate pinning, OAuth2, JWT, IP Whitelisting), reforzando la naturaleza segura y escalable de RappiCard.
 - Definí estándares de arquitectura y lideré el desarrollo del Mobile Design System (adoptado por 7 equipos) → +20% velocidad de desarrollo.
 - Diseñé microservicios backend (Spring Boot/Kotlin) que sustentan los flujos de tarjeta y pago, reforzando dominio end-to-end del producto fintech.
 
@@ -46,7 +47,7 @@ Desarrollador Android Senior con 9+ años de experiencia especializado en Kotlin
 **México | Nov 2018 – Jul 2019**
 
 - Implementé geolocalización (Google Maps) y Bluetooth (lock/unlock) usando Navigation, LiveData, ViewModel y WorkManager, aplicando MVVM y principios SOLID.
-- Integré Dagger 2 (DI), Retrofit (APIs RESTful), Glide (imágenes) y RxJava (programación reactiva); cubrí testing con JUnit y Mockito e integré Firebase en el flujo de producto.
+- Integré Glide/Coil para carga de imágenes en el flujo de producto.
 
 ## Educación
 
@@ -58,4 +59,4 @@ Scrum Fundamentals Certified (SCRUMstudy) · Kotlin – Android DI con Dagger (U
 
 ---
 
-**Nota**: CV adaptado para la vacante Android Developer (Semi Senior/Senior) @ Multiplica Talent (Workable job id: 101AC5FFDD, cliente bancario). Generado a partir de `source/profile/experience.md` y `source/profile/skills.md`, verificado línea por línea con el usuario el 2026-07-01. **Corrección retroactiva (2026-07-11)**: este CV ya fue enviado con la frase "familiaridad con Espresso", que quedó desactualizada tras la confirmación explícita del 2026-07-10 (aplicación ACL) de que Espresso NO aplica. Se corrigió el archivo fuente para futuras referencias, aunque la versión ya enviada al reclutador no se puede modificar — si surge en entrevista, aclarar honestamente que no hay experiencia real con Espresso.
+**Nota**: CV adaptado para la vacante Android Developer (Semi Senior/Senior) @ Multiplica (techjobsinmexico.com) — segunda aplicación al mismo puesto/empresa que `cv_for_multiplica-talent-android-developer.md` (Workable, enviado 2026-07-01, sin respuesta a 10 días), encontrada en un canal distinto. Generado a partir del CV original, corrigiendo una inconsistencia detectada: el original incluía "familiaridad con Espresso", dato que quedó desactualizado tras la confirmación explícita del 2026-07-10 (aplicación ACL) de que Espresso NO aplica — removido aquí. Glide y Coil confirmados por el usuario el 2026-07-11 (Rappi, Grin Scooters) y agregados a `skills.md`/`experience.md` como fuente de verdad — antes eran datos no verificados heredados del CV original. Ktor (mencionado como alternativa a Retrofit en el posting) no se reclama — Retrofit cubre la necesidad funcional del "o". Revisado por `cv-reviewer` (2026-07-11, veredicto "Go con cambios"): se quitó "Firebase Autenticación" (no verificado, solo notificaciones push confirmado); se acotó el bullet de Grin Scooters al stack que `experience.md` documenta específicamente para ese rol (Dagger/Retrofit/RxJava/JUnit/Mockito/Firebase no estaban confirmados ahí); se agregó bullet de seguridad bancaria (Keystore, certificate pinning, OAuth2, JWT, IP Whitelisting) en Rappi — dato real subutilizado que responde directamente al énfasis del posting en "soluciones seguras y escalables".

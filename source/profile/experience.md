@@ -14,13 +14,16 @@ tags: [experience, empleo, historial, logros]
 **Reporté a**: Director/Head of Product
 
 **Responsabilidades principales:**
-- Liderazgo de un equipo de producto multidisciplinario de 12 integrantes (Mobile, QA, Backend)
+- Liderazgo continuo de desarrollo mobile (iOS y Android) durante los 4 años completos como Engineer Lead, en dos etapas:
+  - **Primeros ~2 años (2022–2024)**: liderazgo directo del Mobile Platform Team (iOS, Android, Flutter)
+  - **Últimos ~2 años (2024–2025)**: liderazgo de un equipo de producto multidisciplinario de 12 integrantes (Mobile —iOS y Android—, QA, Backend), ampliando el alcance más allá de solo mobile
 - Coordinación de talento distribuido en México, Colombia, Perú y Chile
 - Propietario técnico regional de producto RappiCard (flujos de tarjeta, estado de cuenta, pago de deuda) para Brasil y Chile
-- Liderazgo del Mobile Platform Team (iOS, Android, Flutter)
 - Diseño e implementación de arquitecturas de microservicios (Spring Boot, Kotlin)
 - Documentación técnica exhaustiva y modelado de sistemas
 - Desarrollo de 15% de tiempo en trabajo técnico directo
+- Seguimiento de salud de servicios en producción (Grafana, SignalFX) y revisión de logs (Mezmo) durante investigación de errores y periodos de guardia (on-call)
+- Uso breve de Jetpack Compose y Paging 3 en desarrollos puntuales (confirmado por el usuario 2026-07-11, aplicación Ready — no fue por mucho tiempo)
 
 **Logros destacados:**
 - ✅ Lideró equipo de 12 personas en entorno de hipercrecimiento y distribución geográfica
@@ -34,7 +37,9 @@ tags: [experience, empleo, historial, logros]
 
 **Tecnologías utilizadas:**
 - Backend: Spring Boot, Kotlin, REST APIs, Swagger/OpenAPI, Microservicios
+- Bases de datos: PostgreSQL, MongoDB (NoSQL)
 - Cloud & DevOps: AWS (ECS, S3, SFTP), Kubernetes, Jenkins (CI/CD)
+- Observabilidad: Grafana, SignalFX (monitoreo), Mezmo (logs)
 - Seguridad: OAuth2, JWT, IP Whitelisting
 - Metodología: Scrum, liderazgo de equipos remotos
 
@@ -74,8 +79,9 @@ tags: [experience, empleo, historial, logros]
 **Logros destacados:**
 - ✅ Desarrolló sistemas de recompensas, solicitud/reemplazo de tarjetas, flujos de pago
 - ✅ Implementó análisis estático y pruebas en CI → reducción de errores en producción
+- ✅ Aplicó seguridad móvil en app bancaria/fintech (Keystore, certificate pinning) — confirmado por el usuario 2026-07-11, sin precisión exacta si fue en este rol o en BBVA Bancomer
 
-**Tecnologías**: Kotlin, Android SDKs, Jenkins, Git, Scrum
+**Tecnologías**: Kotlin, Android SDKs, Jenkins, Git, Scrum, Keystore, Certificate pinning, Glide, Coil
 
 ---
 
@@ -114,7 +120,7 @@ Relevancia: confirma el inicio de carrera ~2015, base de los 9+ años de experie
 - ✅ Aprendió y aplicó SOLID, patrones de diseño, MVVM architecture
 - ✅ Garantizó fidelidad visual extraiendo parámetros exactos de diseño
 
-**Tecnologías**: Kotlin, Android, Google Maps, Bluetooth, MVVM, SOLID
+**Tecnologías**: Kotlin, Android, Google Maps, Bluetooth, MVVM, SOLID, Glide, Coil
 
 ---
 
@@ -167,14 +173,16 @@ AI Systems Builder — proyectos propios (2024-Presente)
 **Impacto**: Sistema semi-automatizado para producción de video con consistencia visual
 
 ### Artify - App Android
-**Herramientas**: Android, Kotlin, Claude Code | **Estado**: Open source (GitHub)
+**Herramientas**: Android, Kotlin, Jetpack Compose, Paging 3, Claude Code | **Estado**: Open source (GitHub)
 
-- Desarrollé app Android de ejercicio técnico con Claude Code
-- Clean Architecture + MVVM
+- Desarrollé app Android de ejercicio técnico con Claude Code, construida como proyecto para la entrevista técnica del proceso de Clara (Mobile Product Lead)
+- Clean Architecture + MVVM, interfaces con Jetpack Compose y paginación con Paging 3
 - GitHub Actions para análisis estático y tests
 - Repositorio público: https://github.com/diegoralt/Artify
 
-**Impacto**: Demostración de capacidad de desarrollo end-to-end con herramientas IA
+**Impacto**: Demostración de capacidad de desarrollo end-to-end con herramientas IA, y evidencia práctica de Jetpack Compose/Paging 3 más allá de la certificación de Platzi
+
+**Nota**: Jetpack Compose y Paging 3 confirmados por el usuario el 2026-07-11 (aplicación Ready) — no estaban documentados antes de esa fecha.
 
 ---
 
