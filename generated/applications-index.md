@@ -16,7 +16,7 @@ Tabla maestra de todas las aplicaciones activas y pausadas: empresa, rol, estado
 | Clara | Mobile Product Lead | Rejected (16-06-2026) | *(CV eliminado 2026-07-01 — contenía datos no verificados: Statsig/Amplitude sin respaldo, "Bilingüe/Fluent" contradice B1 confirmado, fecha de GDG inconsistente con CLAUDE.md)* | — | [clara-mobile-product-lead-application.md](clara-mobile-product-lead-application.md) | 2026-06-16 |
 | ALTEN México | Android Developer | ⚫ Cerrada por inactividad (77 días sin feedback) | [cv_for_android.md](../source/cvs/cv_for_android.md) *(confirmado por nombre de archivo: "CV Android.pdf")* | — | [alten-mexico-android-developer-application.md](alten-mexico-android-developer-application.md) | 2026-07-20 |
 | Rappi | AI Engineer Mid-level | Rejected (29-04-2026) | *(no identificado — cerrado sin resolver por decisión del usuario, no se investigará más)* | — | [rappi-ai-engineer-application.md](rappi-ai-engineer-application.md) | 2026-05-05 |
-| Rappi | AI Engineer (reaplicación) | ⏳ Submitted (29-06-2026), sin respuesta de contacto Mike hace 21 días | *(no identificado — pendiente de auditar)* | — | [rappi-ai-engineer-application-new.md](rappi-ai-engineer-application-new.md) | 2026-06-29 |
+| Rappi | AI Engineer (reaplicación) | Rejected (21-07-2026) — "avanzaron con otro candidato" | *(no identificado — cerrado sin resolver)* | — | [rappi-ai-engineer-application-new.md](rappi-ai-engineer-application-new.md) | 2026-07-21 |
 | GBM | Engineering Manager | ⚫ Cerrada por inactividad (90 días sin feedback tras Entrevista 2) | *(tracking en `.recruitment/`, sistema previo al índice actual)* | — | `.recruitment/active/gbm_engineering_manager/status.md` | 2026-07-20 |
 | Lab10 | AI Product Engineer | ⚫ Cerrada por inactividad (101 días sin feedback tras entregables) | *(tracking en `.recruitment/`, sistema previo al índice actual)* | — | `.recruitment/active/lab10_ai_product_engineer/status.md` | 2026-07-20 |
 | ACL | Desarrollador Mobile Android | ✅ Submitted | [cv_for_acl-android-developer.md](../source/cvs/cv_for_acl-android-developer.md) | [PDF](cvs-pdf/diego-reyes-altamirano-acl-android-developer.pdf) | [acl-android-developer-application.md](acl-android-developer-application.md) | 2026-07-10 |
@@ -56,5 +56,5 @@ Un borrador previo de `cv_for_monato-senior-software-engineer.md` y su tracking 
 ## Pendientes de esta reorganización
 
 - ~~Identificar qué CV se usó realmente para Stori, ALTEN y Rappi~~ — resuelto 2026-07-20: ALTEN confirmado (`cv_for_android.md`), Stori fue externo al proyecto (no aplica), Rappi original queda cerrado sin identificar por decisión del usuario (aplicación rechazada, no se reabre el tema).
-- Seguimiento con Mike (Rappi reaplicación) enviado 2026-07-20 — esperando respuesta.
+- ~~Seguimiento con Mike (Rappi reaplicación)~~ — resuelto 2026-07-21: respondió en 9 horas, avanzaron con otro candidato. Proceso cerrado.
 - Seguimiento para ACL, Monato, Ready y Multiplica (2ª aplicación) programado para ~2026-07-25 (14 días desde el envío) si no hay respuesta antes.

@@ -2,13 +2,16 @@
 type: application_tracking
 company: Rappi
 position: AI Engineer
-status: submitted
+status: rejected
 date_submitted: 2026-06-29
-last_updated: 2026-06-29
+date_rejected: 2026-07-21
+last_updated: 2026-07-21
 contact: mike@rappi.com
 contact_name: Miguel Medina (Mike)
-tags: [rappi, vacante, ai-engineer, machine-learning, fintech, fraud-prevention, ia]
+tags: [rappi, vacante, ai-engineer, machine-learning, fintech, fraud-prevention, ia, rechazada]
 ---
+
+> **Rechazada (2026-07-21):** Mike respondió al seguimiento — "hemos avanzado con otro candidato". Proceso cerrado.
 
 # Rappi - AI Engineer Application [SUBMITTED TODAY]
 
@@ -269,8 +272,8 @@ Esto es exactamente lo que Rappi hace en Risk: ver patrones en millones de trans
 
 ---
 
-**Last Updated:** 2026-07-20  
-**Status:** SUBMITTED - Follow-up enviado a Mike el 2026-07-20 (21 días sin respuesta a la aplicación original), esperando respuesta
+**Last Updated:** 2026-07-21  
+**Status:** REJECTED - Mike respondió el 2026-07-21 (9 horas después del follow-up): avanzaron con otro candidato. Proceso cerrado.
 
 ---
 
